@@ -14,6 +14,7 @@
 		184B6E901ECEE9B4007BA13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184B6E8E1ECEE9B4007BA13C /* LaunchScreen.storyboard */; };
 		184B6E9B1ECEE9B4007BA13C /* UnityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6E9A1ECEE9B4007BA13C /* UnityTests.swift */; };
 		184B6EA61ECEE9B4007BA13C /* UnityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6EA51ECEE9B4007BA13C /* UnityUITests.swift */; };
+		185042321ECF333F0074801C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185042311ECF333F0074801C /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		184B6EA11ECEE9B4007BA13C /* UnityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184B6EA51ECEE9B4007BA13C /* UnityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityUITests.swift; sourceTree = "<group>"; };
 		184B6EA71ECEE9B4007BA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185042311ECF333F0074801C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				184B6E851ECEE9B4007BA13C /* AppDelegate.swift */,
 				184B6E871ECEE9B4007BA13C /* ViewController.swift */,
 				184B6E891ECEE9B4007BA13C /* Main.storyboard */,
+				185042311ECF333F0074801C /* WebViewController.swift */,
 				184B6E8C1ECEE9B4007BA13C /* Assets.xcassets */,
 				184B6E8E1ECEE9B4007BA13C /* LaunchScreen.storyboard */,
 				184B6E911ECEE9B4007BA13C /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184B6E881ECEE9B4007BA13C /* ViewController.swift in Sources */,
+				185042321ECF333F0074801C /* WebViewController.swift in Sources */,
 				184B6E861ECEE9B4007BA13C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				184B6EAC1ECEE9B4007BA13C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184B6EAD1ECEE9B4007BA13C /* Build configuration list for PBXNativeTarget "UnityTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				184B6EAF1ECEE9B4007BA13C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184B6EB01ECEE9B4007BA13C /* Build configuration list for PBXNativeTarget "UnityUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				184B6EB21ECEE9B4007BA13C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
